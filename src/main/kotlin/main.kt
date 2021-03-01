@@ -20,6 +20,6 @@ fun main() {
     } else if (amount > discountStart2 && amount <= discountStart3) {
         println("Комиссия: $rub руб. $cop коп.")
     } else {
-        println("Перевод невозможен, введите сумму меньше 150000")
+        println("Перевод невозможен")
     }
 }
